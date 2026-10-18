@@ -8,5 +8,11 @@ jobs:
        run: echo "hello world"
      - name: print goodbye
        run: echo "good bye"
+
+  second-job:
+   runs-on: ubuntu-latest
+   steps:
+     - name: ask question
+       run: echo "whats your name"
      
     
